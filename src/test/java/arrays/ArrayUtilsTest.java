@@ -57,6 +57,11 @@ class ArrayUtilsTest {
 
 	@Test
 	void add() {
-		// TODO: write test for add method
+		int[] arr1 = {15, 8, 3};
+		int[] arr2 = {-5, 6, 0};
+
+		int[] result = ArrayUtils.add(arr1, arr2);
+
+		assertArrayEquals(new int[]{10, 14, 3}, result);
 	}
 }
